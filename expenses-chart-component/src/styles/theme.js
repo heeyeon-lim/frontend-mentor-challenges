@@ -20,11 +20,18 @@ const fontWeight = {
   bold: "700",
 };
 
+const fontSize = {
+  base: "18px",
+  md: "30px",
+  lg: "40px",
+};
+
 const theme = {
   windowSize,
   primaryColors,
   neutralColors,
   fontWeight,
+  fontSize,
 };
 
 export default theme;
