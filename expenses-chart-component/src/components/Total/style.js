@@ -1,12 +1,10 @@
 import styled from "styled-components";
-import { container } from "../../styles/sharedStyles";
 
 export const Container = styled.div`
-  ${container}
-  border-top: 0.5px solid #afa7a2;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  background-color: ${({ theme }) => theme.neutralColors.paleOrange};
+  border-top: 0.8px solid ${({ theme }) => theme.neutralColors.mediumBrown};
+  margin-top: 10px;
+  padding-top: 30px;
+
   > .title {
     color: ${({ theme }) => theme.neutralColors.mediumBrown};
   }

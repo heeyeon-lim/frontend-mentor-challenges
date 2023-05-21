@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+
 * {
     font-size: 18px;
     font-family: 'DM Sans', sans-serif;
@@ -13,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 `;
 

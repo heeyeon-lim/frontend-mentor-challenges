@@ -5,6 +5,7 @@ export const Container = styled.div`
   ${container}
   background-color: ${({ theme }) => theme.primaryColors.softRed};
   color: ${({ theme }) => theme.neutralColors.paleOrange};
+  margin-bottom: 15px;
 `;
 
 export const AmountContainer = styled.div`
